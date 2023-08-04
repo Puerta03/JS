@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume Geométrico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <script src="calculo.js"></script>
+
+    <section class="barra">
+        <div class="container">
+            <div class="texto">
+                <h1 class="titulo" href="">CALCULANDO VOLUME</h1>
+                <h2 class="subtitulo" href="">CALCULAR JÁ</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="caixas" class="caixas">
+        <div class="container">
+            <div class="caixas">
+                <div onclick="PARALELEPIPEDO()" class="caixa">
+                    <div class="imagem1">
+                        <img src="kisspng-cuboid-shape-prism-three-dimensional-space-cylinde-3d-cube-cliparts-5a8a1c103725d3.1357629715190005922259-removebg-preview.png" alt="">
+                    </div>
+                    <p class="nome">PARALELEPÍPEDO</p> 
+                    <h2 id="paralelepípedo" class="volume"></h2>  
+                </div>
+                <div onclick="CILINDRO()" class="caixa">
+                    <div class="imagem2">
+                        <img src="download-removebg-preview.png" alt="">
+                    </div>
+                    <p class="nome">CILINDRO</p>
+                    <h2 id="cilindro" class="volume"></h2>
+                </div>
+                <div onclick="PIRAMIDE()" class="caixa">
+                    <div class="imagem3">
+                        <img src="kisspng-square-pyramid-shape-edge-triangle-pyramid-5ac1f61a6000c3.5485321015226608903932-removebg-preview (2).png" alt="">
+                    </div>
+                    <p class="nome">PIRÂMIDE</p>
+                    <h2 id="piramide" class="volume"></h2>
+                </div>
+            </div>
+    </section>
+
+    <section id="caixas" class="caixas">
+        <div class="container">
+            <div class="caixas2">
+                <div onclick="CONE()" class="caixa">
+                    <div class="imagem4">
+                        <img src="png-transparent-shape-geometry-geometric-3d-cone-icon-removebg-preview (1).png" alt="">
+                    </div>
+                    <p class="nome">CONE</p>
+                    <h2 id="cone" class="volume"></h2>
+                </div>
+                <div onclick="PRISMA()" class="caixa">
+                    <div class="imagem5">
+                        <img src="kisspng-hexagonal-prism-shape-geometry-prism-5acb7ab3437f31.6402411615232846592765-removebg-preview (3).png" alt="">
+                    </div>
+                    <p class="nome">PRISMA</p>
+                    <h2 id="prisma" class="volume"></h2>
+                </div>
+                <div onclick="ESFERA()" class="caixa">
+                    <div class="imagem6">
+                        <img src="kisspng-geometry-frequency-sphere-mathematics-circle-mathematical-figures-5b49966f1ae737.8847936315315492951103-removebg-preview (11).png" alt="">
+                    </div>
+                    <p class="nome">ESFERA</p>
+                    <h2 id="esfera" class="volume"></h2>
+                </div>
+            </div>
+    </section>
+
+
+</body>
+</html>

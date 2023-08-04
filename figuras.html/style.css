@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient( #784bc5, #fc466b);
+    background-repeat: no-repeat;
+    height: 500vh;
+}
+
+
+.barra {
+    background-image: linear-gradient(#020024, #050552, #1c2782);
+}
+
+.barra .container {
+    height: 200px;
+}
+
+.texto {
+    color: rgb(255, 0, 221);
+}
+
+.titulo {
+    font: 550 50px 'Poppins Bold', sans-serif;
+    padding-top: 50px;
+    padding-left: 450px;
+}
+
+.subtitulo {
+    font: 500 31px 'Poppins Regular', sans-serif;
+    padding-left: 640px;
+    padding-top: 10px;
+}
+
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.caixa:hover {
+    box-shadow: 4px 6px 18px black;
+    width: 280px;
+    height: 320px;
+    transition: 0.9s;
+    margin: 20px 20px;
+}
+
+.caixa {
+    background: #fa99db;
+    border: 3px solid black;
+    text-align: center;
+    height: 350px;
+    width: 250px;
+    border-radius: 50px;
+    margin: 0 10px;
+    padding: 40px 20px;
+}
+
+
+.caixa .imagem1 img {
+    width: 220px;
+    height: auto;
+    margin-bottom: 21px;
+}
+
+.caixa .imagem2 img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.caixa .imagem3 img {
+    width: 145px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.caixa .imagem4 img {
+    width: 148px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.caixa .imagem5 img {
+    width: 115px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.caixa .imagem6 img {
+    width: 175px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.caixas2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
